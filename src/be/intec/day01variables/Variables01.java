@@ -1,11 +1,16 @@
 package be.intec.day01variables;
 
-public class Variables01 {
+public class Variables01 {   //satir cogaltma islemi , ctrl + d ile
 
         //Variable nasil olusturulur?
 
         //1)Access Modifier   2)Data Type     3)Variable ismi     4) =       5)Deger    6);
+        //Access Modifier yazmazsaniz "access modifier" "default" demektir
 
+        //Data Type + Variable Name ==> Variable Declaration
+
+        //Eger Variable Declaration yapar, Assignment yapmazsaniz Java kendi degerlerini(default) koyar.
+        //Default degerler sayilar icin sifirdir.
         // Java'da ";" Ingilizce'deki "." gibidir
         // Ingilizce'de "cumle" deriz, Java'da "statement" deriz
 
@@ -89,9 +94,27 @@ public class Variables01 {
 
     public String name = "Tom Hanks";
 
+    /*
+    float==>ondalikli sayilar icin kullanilan data type laridir.float memeoryde 32 bit kullanir.ondalik kisimlarinda
+     en fazla 7 rakam barindirir 0.1234567 gibi
+
+    double==>ondalikli sayilar icin kullanilir.memoryde 64 bit yer kaplar.
+    double'lar ondalik kisimlarinda 16 rakamm barindirir 0.1234567891234567 gibi.
+    Programcilar float'a gore daha fazla yer kaplasada double'i kullanir;floatta f sonuna eklemek gerektigi icin tercih edilmez
+    */
+
     //Note: "main method" arabanin motoru gibidir.
     //      "main method" calismadan hicbirsey calismaz
     public static void main(String[] args) {
+
+        char sembol='*';
+        System.out.println("sembol = " + sembol);
+
+
+
+
+
+
 
     }
 
